@@ -1,0 +1,216 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{100, 92}, {51, 31}}",
+        "class" : "Switch",
+        "attributes" : {
+          "action" : "MyView.auto",
+          "frame" : "{{95, 105}, {51, 31}}",
+          "value" : false,
+          "class" : "Switch",
+          "name" : "switch1",
+          "uuid" : "68A71E31-B86E-43ED-A379-A8B4EAC1E248"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{236, 608}, {80, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "1B2E4927-9ADC-458A-B1B0-8DAE25206BAA",
+          "corner_radius" : 0,
+          "frame" : "{{80, 104}, {80, 32}}",
+          "tint_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "border_width" : 1,
+          "border_color" : "RGBA(0.825218,0.825218,0.825218,1.000000)",
+          "title" : "执行",
+          "action" : "MyView.exe",
+          "font_bold" : false,
+          "class" : "Button",
+          "name" : "button1",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{30, 92}, {41, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "label1",
+          "frame" : "{{45, 104}, {150, 32}}",
+          "uuid" : "681018EA-A6FF-48E3-AA2B-353EF9AB0626",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "自动",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{70, 500}, {100, 100}}",
+        "class" : "ImageView",
+        "attributes" : {
+          "frame" : "{{110, 190}, {100, 100}}",
+          "image_name" : "iob:arrow_up_a_256",
+          "class" : "ImageView",
+          "name" : "imageview1",
+          "uuid" : "5A07BBFB-3C4A-4E72-A77E-799F2F74ECC0"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{70, 608}, {113, 31}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "label2",
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "F64A417E-E09A-43A7-A2B9-527F9026DA4C",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "控制相机朝向",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{214, 30}, {93, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "MyView.do_connect",
+          "border_width" : 1,
+          "frame" : "{{120, 224}, {80, 32}}",
+          "tint_color" : "RGBA(0.247191,0.247191,0.247191,1.000000)",
+          "title" : "连接",
+          "uuid" : "7C6C681A-1148-419C-AD70-0F10091771BC",
+          "class" : "Button",
+          "corner_radius" : 0,
+          "name" : "connect_button",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{61, 30}, {145, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "name" : "ip_textfield",
+          "frame" : "{{60, 224}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "3A9A896C-901E-4317-B654-FC18C2A46C85",
+          "alignment" : "left",
+          "text" : "172.16.44.147",
+          "autocorrection_type" : "default",
+          "font_size" : 17,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{30, 30}, {23, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "label3",
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "81806C2F-2945-4EC9-8C2D-06F889A13245",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "IP:",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{61, 152}, {246, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "stdout",
+          "frame" : "{{95, 225}, {150, 32}}",
+          "uuid" : "1394010B-66AE-4EC6-BF97-FDECB802B2D5",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{61, 192}, {246, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{95, 225}, {150, 32}}",
+          "uuid" : "FFC6F6D5-297D-4D64-9E67-3EE94CB2DCF5",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Label",
+          "name" : "label4",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{77, 245}, {239, 237}}",
+        "class" : "ImageView",
+        "attributes" : {
+          "frame" : "{{139, 286}, {100, 100}}",
+          "image_name" : "iob:camera_256",
+          "class" : "ImageView",
+          "name" : "imageview2",
+          "uuid" : "BB917FC5-9443-4BFC-9B15-E26D010190E0"
+        },
+        "selected" : true
+      }
+    ],
+    "frame" : "{{0, 0}, {378, 672}}",
+    "class" : "View",
+    "attributes" : {
+      "flex" : "",
+      "custom_class" : "MyView",
+      "enabled" : true,
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "name" : "机械臂"
+    },
+    "selected" : false
+  }
+]
